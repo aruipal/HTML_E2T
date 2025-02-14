@@ -1,0 +1,20 @@
+@media screen (max-width: 400px)
+{
+    .cabecera{
+        flex-direction: column;
+        background-color: pink;
+
+    }
+    
+}
+ @media print{
+    .mensaje{
+        display: block;
+        text-align: center;
+        color: red;
+    }
+    .cabecera{
+        visibility: hidden;
+    }
+ }
+
